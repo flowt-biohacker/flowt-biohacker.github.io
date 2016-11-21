@@ -11,7 +11,7 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://flowt-biohacker.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/first-jupyter-notebook-based-post/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/setting-up-nikola-with-deployment-to-github-pages/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -61,7 +61,120 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-jupyter-notebook-based-post/" class="u-url">first jupyter notebook based post</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/setting-up-nikola-with-deployment-to-github-pages/" class="u-url">Setting up nikola with deployment to github pages</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                deltaFreq
+            </span></p>
+            <p class="dateline"><a href="posts/setting-up-nikola-with-deployment-to-github-pages/" rel="bookmark"><time class="published dt-published" datetime="2016-11-22T00:51:43+07:00" title="2016-11-22 00:51">2016-11-22 00:51</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Installing-nikola-and-its-dependencies">Installing nikola and its dependencies<a class="anchor-link" href="posts/setting-up-nikola-with-deployment-to-github-pages/#Installing-nikola-and-its-dependencies">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In the post that follows I document my experience getting <a href="https://getnikola.com/getting-started.html">nikola</a> setup.</p>
+<p>For starters, nikola was my top choice for a static site generator as it:</p>
+<ul>
+<li>Is open-source python</li>
+<li>Accepts ipython (Jupyter) notebook as an input format</li>
+<li>Automatically deploys to github pages, i.e. free hosting!</li>
+</ul>
+<p>The instructions on nikola's <em>Getting Started</em> page went smoothly, with one hiccup:</p>
+<p><code>Error: Cannot remove entries from nonexistent file d:\anaconda32\envs\tst\lib\site-packages\easy-install.pth</code></p>
+<p>I'm using ContinuumIO's Anaconda as my package manager, and a bug which is documented <a href="https://github.com/ContinuumIO/anaconda-issues/issues/542">here</a> causes any package relying on setuptools to fail, as Anaconda doesn't use easy install. The workaround was simply enough:</p>
+<p><code>pip install --upgrade --ignore-installed "Nikola[extras]"</code></p>
+<p>And with that setuptools is installed and the bug is fixed for the lifetime of that particular conda environment.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Configuring-nikola-for-input-from-IPython-Notebook">Configuring nikola for input from IPython Notebook<a class="anchor-link" href="posts/setting-up-nikola-with-deployment-to-github-pages/#Configuring-nikola-for-input-from-IPython-Notebook">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You want to be able to run:</p>
+<p><code>nikola new_post -f pynb</code></p>
+<p>in order to create your ipython notebook based blog post. If you try and do that off that bat, you'll get an error saying that the ipynb format hasn't been added to <strong>POSTS</strong> and <strong>PAGES</strong> tuples in your conf.py file. Initially I was following <a href="http://www.damian.oquanta.info/posts/ipython-plugin-for-nikola-updated.html">this post</a>, but it seems that default nikola installation has changed slightly. In particular I only had to the following tuples to the POSTS and PAGES lists, respectively:</p>
+<p><code>("posts/*.ipynb", "posts", "post.tmpl", True),</code></p>
+<p><code>("stories/*.ipynb", "stories", "story.tmpl", False),</code></p>
+<p>You can leave the default theme as bootstrap3, as this supports the ipython notebook format. With that, I was able to create my ipython NB blog posts and view them locally with <code>nikola serve --browser</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Deploying-to-github-pages">Deploying to github pages<a class="anchor-link" href="posts/setting-up-nikola-with-deployment-to-github-pages/#Deploying-to-github-pages">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I went with the simplest possible setup, which github really does make breathtakingly simple!</p>
+<ol>
+<li>Create a repo called <em>your-username.github.io</em> and bam, you've got free static site hosting. From there simply upload your site contents (as generated by nikola in this case) to the master branch and visit enter <em>your-username.github.io</em> for a pleasant reception. </li>
+<li>Follow <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">these instruction</a> from within your nikola site's directory to init and push the empty master branch.</li>
+<li>Run <code>nikola github_deploy</code> - and that's it! </li>
+</ol>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-jupyter-notebook-based-post/" class="u-url">first jupyter notebook based post</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 deltaFreq
