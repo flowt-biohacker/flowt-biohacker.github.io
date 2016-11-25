@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/archive.html</loc>
-  <lastmod>2016-11-21T18:39:00Z</lastmod>
+  <lastmod>2016-11-25T06:10:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/categories/</loc>
@@ -108,5 +108,9 @@
  <url>
   <loc>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</loc>
   <lastmod>2016-11-21T18:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/posts/what-is-flowt/</loc>
+  <lastmod>2016-11-25T06:10:00Z</lastmod>
  </url>
 </urlset>
