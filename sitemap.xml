@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/archive.html</loc>
-  <lastmod>2016-11-25T06:10:00Z</lastmod>
+  <lastmod>2016-11-25T07:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/categories/</loc>
@@ -39,7 +39,7 @@
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/listings/hello.py.html</loc>
-  <lastmod>2016-11-21T15:16:00Z</lastmod>
+  <lastmod>2016-11-25T07:06:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/pages/about-nikola/</loc>
@@ -100,10 +100,6 @@
  <url>
   <loc>http://flowt-biohacker.github.io/pages/theming/</loc>
   <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/posts/first-jupyter-notebook-based-post/</loc>
-  <lastmod>2016-11-21T15:03:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</loc>
