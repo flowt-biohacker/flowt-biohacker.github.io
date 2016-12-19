@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/archive.html</loc>
-  <lastmod>2016-12-01T13:24:00Z</lastmod>
+  <lastmod>2016-12-19T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/categories/</loc>
@@ -104,6 +104,10 @@
  <url>
   <loc>http://flowt-biohacker.github.io/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</loc>
   <lastmod>2016-12-01T13:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/</loc>
+  <lastmod>2016-12-19T19:30:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</loc>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embedding mailchimp's sign-up form | flowt_biohacker</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
+<link rel="canonical" href="http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/">
+<!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Martin A. Molina">
+<link rel="prev" href="../configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" title="Configuring Android Galaxy S6 on telcomsel's Mobile Data Network" type="text/html">
+<meta property="og:site_name" content="flowt_biohacker">
+<meta property="og:title" content="Embedding mailchimp's sign-up form">
+<meta property="og:url" content="http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/">
+<meta property="og:description" content="Want to receive updates from me? Subscribe below!¶
+
+
+
+
+
+In [19]:
+
+    
+html_string = '&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/slim-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;\
+&lt;style type=&quot;te">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-12-20T02:07:20+07:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://flowt-biohacker.github.io/">
+
+                <span id="blog-title">flowt_biohacker</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+                </li>
+<li>
+<a href="../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+    <a href="index.ipynb" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Embedding mailchimp's sign-up form</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                    Martin A. Molina
+            </span></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2016-12-20T02:07:20+07:00" itemprop="datePublished" title="2016-12-20 02:07">2016-12-20 02:07</time></a></p>
+                <p class="commentline">
+        
+
+
+            
+        </p>
+<p class="sourceline"><a href="index.ipynb" id="sourcelink">Source</a></p>
+
+        </div>
+        
+
+    </header><div class="e-content entry-content" itemprop="articleBody text">
+    <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Want-to-receive-updates-from-me?-Subscribe-below!">Want to receive updates from me? Subscribe below!<a class="anchor-link" href="#Want-to-receive-updates-from-me?-Subscribe-below!">¶</a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">html_string</span> <span class="o">=</span> <span class="s1">'&lt;link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"&gt;</span><span class="se">\</span>
+<span class="s1">&lt;style type="text/css"&gt;</span><span class="se">\</span>
+<span class="s1">	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</span><span class="se">\</span>
+<span class="s1">&lt;/style&gt;</span><span class="se">\</span>
+<span class="s1">&lt;div id="mc_embed_signup"&gt;</span><span class="se">\</span>
+<span class="s1">&lt;form action="//github.us14.list-manage.com/subscribe/post?u=324739f7480162ee8cad453b8&amp;amp;id=6f694b24ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div id="mc_embed_signup_scroll"&gt;</span><span class="se">\</span>
+<span class="s1">	&lt;label for="mce-EMAIL"&gt;Subscribe to our mailing list&lt;/label&gt;</span><span class="se">\</span>
+<span class="s1">	&lt;input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_324739f7480162ee8cad453b8_6f694b24ee" tabindex="-1" value=""&gt;&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div class="clear"&gt;&lt;input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"&gt;&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">&lt;/form&gt;</span><span class="se">\</span>
+<span class="s1">&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">&lt;!--End mc_embed_signup--&gt;'</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">html_string</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style>
+<div id="mc_embed_signup"><form action="//github.us14.list-manage.com/subscribe/post?u=324739f7480162ee8cad453b8&amp;id=6f694b24ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>    <div id="mc_embed_signup_scroll">	<label for="mce-EMAIL">Subscribe to our mailing list</label>	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_324739f7480162ee8cad453b8_6f694b24ee" tabindex="-1" value=""></div>    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>    </div>
+</form></div>
+<!--End mc_embed_signup-->
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager hidden-print">
+<li class="previous">
+                <a href="../configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" rel="prev" title="Configuring Android Galaxy S6 on telcomsel's Mobile Data Network">Previous post</a>
+            </li>
+        </ul></nav></aside><section class="comments hidden-print"><h2>Comments</h2>
+        
+        
+
+
+        </section><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+            </script></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:flowt.biohacker@gmail.com">Martin A. Molina</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>
