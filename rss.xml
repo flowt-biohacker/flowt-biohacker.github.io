@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>flowt_biohacker</title><link>http://flowt-biohacker.github.io/</link><description>biohacks, dsp, android</description><atom:link rel="self" href="http://flowt-biohacker.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Mon, 19 Dec 2016 19:30:07 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Embedding mailchimp's sign-up form</title><link>http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+<?xml-stylesheet type="text/xsl" href="/assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>flowt</title><link>http://flowt-biohacker.github.io/</link><description>biohacks, dsp, android</description><atom:link rel="self" href="http://flowt-biohacker.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 20 Dec 2016 21:18:51 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Embedding mailchimp's sign-up form</title><link>http://flowt-biohacker.github.io/blog/embedding-mailchimps-sign-up-form/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -7,7 +7,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Want-to-receive-updates-from-me?-Subscribe-below!"&gt;Want to receive updates from me? Subscribe below!&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/#Want-to-receive-updates-from-me?-Subscribe-below!"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="Want-to-receive-updates-from-me?-Subscribe-below!"&gt;Want to receive updates from me? Subscribe below!&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/embedding-mailchimps-sign-up-form/#Want-to-receive-updates-from-me?-Subscribe-below!"&gt;¶&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -70,10 +70,10 @@
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><guid>http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/</guid><pubDate>Mon, 19 Dec 2016 19:07:20 GMT</pubDate></item><item><title>Configuring Android Galaxy S6 on telcomsel's Mobile Data Network</title><link>http://flowt-biohacker.github.io/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;blockquote&gt;
+</description><guid>http://flowt-biohacker.github.io/blog/embedding-mailchimps-sign-up-form/</guid><pubDate>Mon, 19 Dec 2016 19:07:20 GMT</pubDate></item><item><title>Configuring Android Galaxy S6 on telcomsel's Mobile Data Network</title><link>http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;blockquote&gt;
 &lt;p&gt;One of the modern pleasures of traveling in South East Asia is ubiquitous 3 or 4G mobile data access. My experiences in Thailand and Malaysia have been phenomenal in this regard, as I can take care or hotel booking, directions, or language translation on the fly with little to no planning required. In Bali though, I ran into some difficulty. After negotiating the price for a new sim card and 6GB data plan down to a reasonable 125,000 IDR with a local vendor, I popped it in only to find that while calling and SMS functioned, I had no internet access to speak of! Unfortunately, this particular vendor wasn't the most honest of businessmen, and had little sympathy for my technical difficulties. Fortunately, after about an hour of research and fiddling, I found that the automatic APN configuration failed, and I simply had to perform it manually.&lt;/p&gt;
 &lt;p&gt;The correct APN settings were found here: &lt;a class="reference external" href="http://www.telkomsel.com/services/basic-services/3062-GPRS"&gt;http://www.telkomsel.com/services/basic-services/3062-GPRS&lt;/a&gt;, note that unless you can read Bahasa, google translate will come in useful on the linked page! In summary though, I simply had to create a new APN with 'name' = 'internet' and 'apn' = 'internet'. After that, I was in business! It seemed that my device did automatically register with the tecomsel server, though if yours does not you may need to text 'internet' to the number '5432' on indicated on the linked page.&lt;/p&gt;
-&lt;/blockquote&gt;</description><guid>http://flowt-biohacker.github.io/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</guid><pubDate>Thu, 01 Dec 2016 13:10:36 GMT</pubDate></item><item><title>What is flowt?</title><link>http://flowt-biohacker.github.io/posts/what-is-flowt/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+&lt;/blockquote&gt;</description><guid>http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</guid><pubDate>Thu, 01 Dec 2016 13:10:36 GMT</pubDate></item><item><title>What is flowt?</title><link>http://flowt-biohacker.github.io/blog/what-is-flowt/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -81,7 +81,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h3 id='A-quick-introduction-to-the-"flowt"-HRV-biofeedback-app-for-Android.'&gt;A quick introduction to the "flowt" HRV biofeedback app for Android.&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/what-is-flowt/#A-quick-introduction-to-the-%22flowt%22-HRV-biofeedback-app-for-Android."&gt;¶&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id='A-quick-introduction-to-the-"flowt"-HRV-biofeedback-app-for-Android.'&gt;A quick introduction to the "flowt" HRV biofeedback app for Android.&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/what-is-flowt/#A-quick-introduction-to-the-%22flowt%22-HRV-biofeedback-app-for-Android."&gt;¶&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -123,7 +123,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Summary"&gt;Summary&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/what-is-flowt/#Summary"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;h4 id="Summary"&gt;Summary&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/what-is-flowt/#Summary"&gt;¶&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;What: android app that measures pulse, heart rate, etc.&lt;/li&gt;
 &lt;li&gt;Why: monitor and control physiological stress&lt;/li&gt;
 &lt;li&gt;How: using your smartphone camera and a technique called photoplethysmography (PPG)&lt;/li&gt;
@@ -147,7 +147,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="The-full-scoop"&gt;The full scoop&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/what-is-flowt/#The-full-scoop"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="The-full-scoop"&gt;The full scoop&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/what-is-flowt/#The-full-scoop"&gt;¶&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -177,7 +177,7 @@
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><guid>http://flowt-biohacker.github.io/posts/what-is-flowt/</guid><pubDate>Fri, 25 Nov 2016 06:02:57 GMT</pubDate></item><item><title>Setting up nikola with deployment to github pages</title><link>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+</description><guid>http://flowt-biohacker.github.io/blog/what-is-flowt/</guid><pubDate>Fri, 25 Nov 2016 06:02:57 GMT</pubDate></item><item><title>Setting up nikola with deployment to github pages</title><link>http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/</link><dc:creator>Martin A. Molina</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
     &lt;div class="container" id="notebook-container"&gt;
 
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
@@ -185,7 +185,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Installing-nikola-and-its-dependencies"&gt;Installing nikola and its dependencies&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/#Installing-nikola-and-its-dependencies"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="Installing-nikola-and-its-dependencies"&gt;Installing nikola and its dependencies&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/#Installing-nikola-and-its-dependencies"&gt;¶&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -215,7 +215,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Configuring-nikola-for-input-from-IPython-Notebook"&gt;Configuring nikola for input from IPython Notebook&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/#Configuring-nikola-for-input-from-IPython-Notebook"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="Configuring-nikola-for-input-from-IPython-Notebook"&gt;Configuring nikola for input from IPython Notebook&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/#Configuring-nikola-for-input-from-IPython-Notebook"&gt;¶&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -239,7 +239,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h4 id="Deploying-to-github-pages"&gt;Deploying to github pages&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/#Deploying-to-github-pages"&gt;¶&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id="Deploying-to-github-pages"&gt;Deploying to github pages&lt;a class="anchor-link" href="http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/#Deploying-to-github-pages"&gt;¶&lt;/a&gt;&lt;/h4&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -273,4 +273,4 @@
 &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-</description><guid>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</guid><pubDate>Mon, 21 Nov 2016 17:51:43 GMT</pubDate></item></channel></rss>
+</description><guid>http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/</guid><pubDate>Mon, 21 Nov 2016 17:51:43 GMT</pubDate></item></channel></rss>

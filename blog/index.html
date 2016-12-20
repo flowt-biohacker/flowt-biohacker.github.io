@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="biohacks, dsp, android">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>flowt | flowt</title>
+<link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+<link rel="canonical" href="http://flowt-biohacker.github.io/blog/">
+<!--[if lt IE 9]>
+            <script src="/assets/js/html5shiv.min.js"></script>
+            <script src="/assets/js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-info header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3">
+            <h1 class="title-blog">
+                <a href="http://flowt-biohacker.github.io/">
+                        <!--img src="images/feature_banner.png" alt="flowt" id="logo" height="70px" width="auto"-->
+                        <img src="/images/feature_banner.png" alt="flowt" id="logo" height="70px" width="auto"></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+<!-- /.container-fluid -->
+</nav><div class="container-fluid main" id="content" role="main">
+        <div class="row">
+            <nav class="col-xs-3 menu"><ul>
+<li class="withripple active"><a href="/blog/">Blog</a></li>
+                <li class="withripple"><a href="https://play.google.com/store/apps/details?id=com.martianwearables.hrv_flowt&amp;hl=en">App</a></li>
+
+                    
+                </ul>
+<ul class="nav navbar-nav"></ul></nav><div class="posts-material col-xs-9">
+                <div class="col-xs-12 col-md-11 content-material">
+
+    <div class="postindex well post-material ">
+        <article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="/blog/embedding-mailchimps-sign-up-form/" class="u-url">Embedding mailchimp's sign-up form</a></h1>
+            <div class="metadata">
+                <span class="byline author vcard">
+                        <i class="mdi-action-face-unlock"></i>
+                    Martin A. Molina
+                </span>
+                <span class="dateline"><a href="/blog/embedding-mailchimps-sign-up-form/" rel="bookmark">
+                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2016-12-20T02:07:20+07:00" title="2016-12-20 02:07">2016-12-20 02:07</time></a></span>
+                    <span class="commentline">            <a href="/blog/embedding-mailchimps-sign-up-form/#disqus_thread" data-disqus-identifier="cache/posts/embedding-mailchimps-sign-up-form.html">Comments</a>
+
+</span>
+            </div>
+            <hr></header><div class="e-content entry-content">
+        <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Want-to-receive-updates-from-me?-Subscribe-below!">Want to receive updates from me? Subscribe below!<a class="anchor-link" href="/blog/embedding-mailchimps-sign-up-form/#Want-to-receive-updates-from-me?-Subscribe-below!">¶</a>
+</h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">html_string</span> <span class="o">=</span> <span class="s1">'&lt;link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"&gt;</span><span class="se">\</span>
+<span class="s1">&lt;style type="text/css"&gt;</span><span class="se">\</span>
+<span class="s1">	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</span><span class="se">\</span>
+<span class="s1">&lt;/style&gt;</span><span class="se">\</span>
+<span class="s1">&lt;div id="mc_embed_signup"&gt;</span><span class="se">\</span>
+<span class="s1">&lt;form action="//github.us14.list-manage.com/subscribe/post?u=324739f7480162ee8cad453b8&amp;amp;id=6f694b24ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div id="mc_embed_signup_scroll"&gt;</span><span class="se">\</span>
+<span class="s1">	&lt;label for="mce-EMAIL"&gt;Subscribe to our mailing list&lt;/label&gt;</span><span class="se">\</span>
+<span class="s1">	&lt;input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div style="position: absolute; left: -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_324739f7480162ee8cad453b8_6f694b24ee" tabindex="-1" value=""&gt;&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;div class="clear"&gt;&lt;input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"&gt;&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">    &lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">&lt;/form&gt;</span><span class="se">\</span>
+<span class="s1">&lt;/div&gt;</span><span class="se">\</span>
+<span class="s1">&lt;!--End mc_embed_signup--&gt;'</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">html_string</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style>
+<div id="mc_embed_signup"><form action="//github.us14.list-manage.com/subscribe/post?u=324739f7480162ee8cad453b8&amp;id=6f694b24ee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>    <div id="mc_embed_signup_scroll">	<label for="mce-EMAIL">Subscribe to our mailing list</label>	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_324739f7480162ee8cad453b8_6f694b24ee" tabindex="-1" value=""></div>    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>    </div>
+</form></div>
+<!--End mc_embed_signup-->
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+        </div>
+        </article><article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" class="u-url">Configuring Android Galaxy S6 on telcomsel's Mobile Data Network</a></h1>
+            <div class="metadata">
+                <span class="byline author vcard">
+                        <i class="mdi-action-face-unlock"></i>
+                    Martin A. Molina
+                </span>
+                <span class="dateline"><a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" rel="bookmark">
+                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2016-12-01T20:10:36+07:00" title="2016-12-01 20:10">2016-12-01 20:10</time></a></span>
+                    <span class="commentline">            <a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/#disqus_thread" data-disqus-identifier="cache/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network.html">Comments</a>
+
+</span>
+            </div>
+            <hr></header><div class="e-content entry-content">
+        <blockquote>
+<p>One of the modern pleasures of traveling in South East Asia is ubiquitous 3 or 4G mobile data access. My experiences in Thailand and Malaysia have been phenomenal in this regard, as I can take care or hotel booking, directions, or language translation on the fly with little to no planning required. In Bali though, I ran into some difficulty. After negotiating the price for a new sim card and 6GB data plan down to a reasonable 125,000 IDR with a local vendor, I popped it in only to find that while calling and SMS functioned, I had no internet access to speak of! Unfortunately, this particular vendor wasn't the most honest of businessmen, and had little sympathy for my technical difficulties. Fortunately, after about an hour of research and fiddling, I found that the automatic APN configuration failed, and I simply had to perform it manually.</p>
+<p>The correct APN settings were found here: <a class="reference external" href="http://www.telkomsel.com/services/basic-services/3062-GPRS">http://www.telkomsel.com/services/basic-services/3062-GPRS</a>, note that unless you can read Bahasa, google translate will come in useful on the linked page! In summary though, I simply had to create a new APN with 'name' = 'internet' and 'apn' = 'internet'. After that, I was in business! It seemed that my device did automatically register with the tecomsel server, though if yours does not you may need to text 'internet' to the number '5432' on indicated on the linked page.</p>
+</blockquote>
+        </div>
+        </article><article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="/blog/what-is-flowt/" class="u-url">What is flowt?</a></h1>
+            <div class="metadata">
+                <span class="byline author vcard">
+                        <i class="mdi-action-face-unlock"></i>
+                    Martin A. Molina
+                </span>
+                <span class="dateline"><a href="/blog/what-is-flowt/" rel="bookmark">
+                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2016-11-25T13:02:57+07:00" title="2016-11-25 13:02">2016-11-25 13:02</time></a></span>
+                    <span class="commentline">            <a href="/blog/what-is-flowt/#disqus_thread" data-disqus-identifier="cache/posts/what-is-flowt.html">Comments</a>
+
+</span>
+            </div>
+            <hr></header><div class="e-content entry-content">
+        <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id='A-quick-introduction-to-the-"flowt"-HRV-biofeedback-app-for-Android.'>A quick introduction to the "flowt" HRV biofeedback app for Android.<a class="anchor-link" href="/blog/what-is-flowt/#A-quick-introduction-to-the-%22flowt%22-HRV-biofeedback-app-for-Android.">¶</a>
+</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Here is our banner - and the python code used to display it.</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span><span class="p">,</span> <span class="n">display</span>
+<span class="n">banner</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s1">'../files/images/feature_banner.png'</span><span class="p">)</span>
+<span class="n">banner</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="mi">400</span>
+<span class="n">display</span><span class="p">(</span><span class="n">banner</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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%0AgAEAL7yWIcEWNAMAAAAASUVORK5CYII=" width="400">
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Summary">Summary<a class="anchor-link" href="/blog/what-is-flowt/#Summary">¶</a>
+</h4>
+<ul>
+<li>What: android app that measures pulse, heart rate, etc.</li>
+<li>Why: monitor and control physiological stress</li>
+<li>How: using your smartphone camera and a technique called photoplethysmography (PPG)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="https://play.google.com/apps/testing/com.martianwearables.hrv_flowt">Download Link</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="The-full-scoop">The full scoop<a class="anchor-link" href="/blog/what-is-flowt/#The-full-scoop">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I recently published the Alpha version of a heart rate variability diasgnostic and biofeedback application for Android called "flowt". This app makes use of a technique called photoplyethysmography (PPG) in order to measure your pulse, along with various derived statistics, using only your smartphone camera. Details on how PPG are works will come in a later post, for now I'll skip them and get straight to why <em>flowt</em> is valuable.</p>
+<p>The infamous "fight or flight" reaction is familiar to anybody with a pulse. Common symptoms include cold, sweaty hands, increased heart rate, and anxious, racing thoughts. In addition to being uncomfortable, stress has a detrimental impact on many areas of life including cognitive performance, social performance, and cardiac health. In order to help you manage stress, flowt uses a biomarker called Heart Rate Variability. Heart Rate Variability (HRV) is a statistic calculated from your pulse which serves as a quantitative measurement of stress. Specialized equipent exists for taking HRV measurements, but I wanted to build something that didn'y require purchasing any hardware, so flowt uses only your smart phone camera to measure color changes in your finger which are induced by your heart beat. The measurements from your pulse are combined with your own subjective reports in order to track and control stress in the moment, and over time. The ability to actively control your HRV is acquired through a technique called "HRV Biofeedback Training", which I'll call "flowting". The ideal behind flowting is simple: we measure your HRV in real-time as you attempt to improve it through timed breathing exercises, such that you get instant feedback on what's working, and how your body is responding. This type of protocol has been shown to improve resting HRV levels, along with other measures of stress including anxiety, c-reactive protein, blood pressure, and more.</p>
+<p>Wait, but what exactly is "Heart Rate Variability"?</p>
+<p>Heart rate variabiliy (HRV) is a measure of the variation in beat to beat intervals. In other words, your heart rate is not constant, it is always changing, and HRV measures exactly how much it is changes over time. High HRV describes a state when your heart rate changes a lot in a given period of time, this is a actually a good thing! It may seem counter-intuitive, but a highly variable heart rate is characteristic of the "Rest and Digest" mode of your nervous system, while low HRV is characteristic of the "Fight or Flight" mode. This relationships can be understood in the following way: when you are healthy and stress free, your heart responds flexibly to changes in breathing and other stimuli, whereas when you are stressed, you loose that flexibility and your heart rate becomes more rigid. So by all means, take a deep breath, relax, and flowt on.</p>
+<p>Note: I consider this application a "rough draft", please direct any and all opinions and ideas to flowt.biohacker@gmail.com so that I may use them to improve the app!</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>References and citations coming soon, for now here is link to my notes: <a href="https://docs.google.com/document/d/1ITS_F_Rh_CrSBAEOfuIvQjnm6ks9nUAGjrUBnnvRsWA/edit?usp=sharing">notes</a></p>
+
+</div>
+</div>
+</div>
+    </div>
+  </div>
+
+        </div>
+        </article><article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="/blog/setting-up-nikola-with-deployment-to-github-pages/" class="u-url">Setting up nikola with deployment to github pages</a></h1>
+            <div class="metadata">
+                <span class="byline author vcard">
+                        <i class="mdi-action-face-unlock"></i>
+                    Martin A. Molina
+                </span>
+                <span class="dateline"><a href="/blog/setting-up-nikola-with-deployment-to-github-pages/" rel="bookmark">
+                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2016-11-22T00:51:43+07:00" title="2016-11-22 00:51">2016-11-22 00:51</time></a></span>
+                    <span class="commentline">            <a href="/blog/setting-up-nikola-with-deployment-to-github-pages/#disqus_thread" data-disqus-identifier="cache/posts/setting-up-nikola-with-deployment-to-github-pages.html">Comments</a>
+
+</span>
+            </div>
+            <hr></header><div class="e-content entry-content">
+        <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Installing-nikola-and-its-dependencies">Installing nikola and its dependencies<a class="anchor-link" href="/blog/setting-up-nikola-with-deployment-to-github-pages/#Installing-nikola-and-its-dependencies">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In the post that follows I document my experience getting <a href="https://getnikola.com/getting-started.html">nikola</a> setup.</p>
+<p>For starters, nikola was my top choice for a static site generator as it:</p>
+<ul>
+<li>Is open-source python</li>
+<li>Accepts ipython (Jupyter) notebook as an input format</li>
+<li>Automatically deploys to github pages, i.e. free hosting!</li>
+</ul>
+<p>The instructions on nikola's <em>Getting Started</em> page went smoothly, with one hiccup:</p>
+<p><code>Error: Cannot remove entries from nonexistent file d:\anaconda32\envs\tst\lib\site-packages\easy-install.pth</code></p>
+<p>I'm using ContinuumIO's Anaconda as my package manager, and a bug which is documented <a href="https://github.com/ContinuumIO/anaconda-issues/issues/542">here</a> causes any package relying on setuptools to fail, as Anaconda doesn't use easy install. The workaround was simply enough:</p>
+<p><code>pip install --upgrade --ignore-installed "Nikola[extras]"</code></p>
+<p>And with that setuptools is installed and the bug is fixed for the lifetime of that particular conda environment.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Configuring-nikola-for-input-from-IPython-Notebook">Configuring nikola for input from IPython Notebook<a class="anchor-link" href="/blog/setting-up-nikola-with-deployment-to-github-pages/#Configuring-nikola-for-input-from-IPython-Notebook">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You want to be able to run:</p>
+<p><code>nikola new_post -f pynb</code></p>
+<p>in order to create your ipython notebook based blog post. If you try and do that off that bat, you'll get an error saying that the ipynb format hasn't been added to <strong>POSTS</strong> and <strong>PAGES</strong> tuples in your conf.py file. Initially I was following <a href="http://www.damian.oquanta.info/posts/ipython-plugin-for-nikola-updated.html">this post</a>, but it seems that default nikola installation has changed slightly. In particular I only had to the following tuples to the POSTS and PAGES lists, respectively:</p>
+<p><code>("posts/*.ipynb", "posts", "post.tmpl", True),</code></p>
+<p><code>("stories/*.ipynb", "stories", "story.tmpl", False),</code></p>
+<p>You can leave the default theme as bootstrap3, as this supports the ipython notebook format. With that, I was able to create my ipython NB blog posts and view them locally with <code>nikola serve --browser</code></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Deploying-to-github-pages">Deploying to github pages<a class="anchor-link" href="/blog/setting-up-nikola-with-deployment-to-github-pages/#Deploying-to-github-pages">¶</a>
+</h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>I went with the simplest possible setup, which github really does make breathtakingly simple!</p>
+<ol>
+<li>Create a repo called <em>your-username.github.io</em> and bam, you've got free static site hosting. From there simply upload your site contents (as generated by nikola in this case) to the master branch and visit enter <em>your-username.github.io</em> for a pleasant reception. </li>
+<li>Follow <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">these instruction</a> from within your nikola site's directory to init and push the empty master branch.</li>
+<li>Run <code>nikola github_deploy</code> - and that's it! </li>
+</ol>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div>
+  </div>
+
+        </div>
+        </article>
+</div>
+
+               <script>var disqus_shortname="flowt-website";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script><script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});
+            </script>
+</div>
+            </div>
+        </div>
+        <button class="btn btn-fab btn-raised btn-material-green btn-footer" data-toggle="modal" data-target="#footer-dialog">
+            <i class="mdi-communication-message"></i>
+        </button>
+        <div id="footer-dialog" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">flowt credits</h4>
+ 
+              </div>
+              <div class="modal-body">
+                    Contents © 2016         <a href="mailto:flowt.biohacker@gmail.com">Martin A. Molina</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="source-button">
+        </div>
+        <div class="kc_fab_wrapper"></div>
+</div>
+
+            <script src="/assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                            "bgcolor": "#F44336",
+                        },
+                        {
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "target": "_blank",
+                        },
+                        {
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "color": "#fffff",
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "target": "_blank",
+                        },
+                        {
+                            "icon": "<i class='fa fa-facebook'></i>",
+                            "color": "#fffff",
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "target": "_blank",
+                        },
+                ];
+
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
+            });
+
+            $(window).on("resize", function() {
+                $("html, body").height($(window).height());
+                $(".main, .menu").height($(window).height() - $(".header-panel").outerHeight() - 76 ); // footer margin: $("footer.footer").outerHeight()
+                $(".posts-material").height($(window).height());
+            }).trigger("resize");
+        </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            
+              ga('create', 'UA-88074465-3', 'auto');
+                ga('send', 'pageview');
+                
+                </script>
+</body>
+</html>

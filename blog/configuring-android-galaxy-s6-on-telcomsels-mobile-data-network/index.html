@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Configuring Android Galaxy S6 on telcomsel's Mobile Data Network | flowt</title>
+<link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+<link rel="canonical" href="http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/">
+<!--[if lt IE 9]>
+            <script src="/assets/js/html5shiv.min.js"></script>
+            <script src="/assets/js/respond.min.js"></script>
+        <![endif]--><meta name="author" content="Martin A. Molina">
+<link rel="prev" href="/blog/what-is-flowt/" title="What is flowt?" type="text/html">
+<link rel="next" href="/blog/embedding-mailchimps-sign-up-form/" title="Embedding mailchimp's sign-up form" type="text/html">
+<meta property="og:site_name" content="flowt">
+<meta property="og:title" content="Configuring Android Galaxy S6 on telcomsel's Mobile Data Network">
+<meta property="og:url" content="http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/">
+<meta property="og:description" content="One of the modern pleasures of traveling in South East Asia is ubiquitous 3 or 4G mobile data access. My experiences in Thailand and Malaysia have been phenomenal in this regard, as I can take care or">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2016-12-01T20:10:36+07:00">
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-info header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-3">
+            <h1 class="title-blog">
+                <a href="http://flowt-biohacker.github.io/">
+                        <!--img src="images/feature_banner.png" alt="flowt" id="logo" height="70px" width="auto"-->
+                        <img src="/images/feature_banner.png" alt="flowt" id="logo" height="70px" width="auto"></a>
+            </h1>
+          </div>
+        </div>
+      </div>
+<!-- /.container-fluid -->
+</nav><div class="container-fluid main" id="content" role="main">
+        <div class="row">
+            <nav class="col-xs-3 menu"><ul>
+<li class="withripple"><a href="/blog/">Blog</a></li>
+                <li class="withripple"><a href="https://play.google.com/store/apps/details?id=com.martianwearables.hrv_flowt&amp;hl=en">App</a></li>
+
+                    
+                </ul>
+<ul class="nav navbar-nav"></ul></nav><div class="posts-material col-xs-9">
+                <div class="col-xs-12 col-md-11 content-material">
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" class="u-url">Configuring Android Galaxy S6 on telcomsel's Mobile Data Network</a></h1>
+<hr>
+<div class="metadata">
+            <span class="byline author vcard">
+                <a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/">
+                        <i class="mdi-action-face-unlock"></i>
+                    Martin A. Molina
+                </a>
+            </span>
+            <span class="dateline">
+                <a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/" rel="bookmark"><i class="mdi-device-access-time"></i>
+                    <time class="published dt-published" datetime="2016-12-01T20:10:36+07:00" itemprop="datePublished" title="2016-12-01 20:10">2016-12-01 20:10</time></a>
+            </span>
+                <span class="commentline">            <a href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/#disqus_thread" data-disqus-identifier="cache/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network.html">Comments</a>
+
+</span>
+        </div>
+        
+        <hr></header><div class="e-content entry-content" itemprop="articleBody text">
+    <blockquote>
+<p>One of the modern pleasures of traveling in South East Asia is ubiquitous 3 or 4G mobile data access. My experiences in Thailand and Malaysia have been phenomenal in this regard, as I can take care or hotel booking, directions, or language translation on the fly with little to no planning required. In Bali though, I ran into some difficulty. After negotiating the price for a new sim card and 6GB data plan down to a reasonable 125,000 IDR with a local vendor, I popped it in only to find that while calling and SMS functioned, I had no internet access to speak of! Unfortunately, this particular vendor wasn't the most honest of businessmen, and had little sympathy for my technical difficulties. Fortunately, after about an hour of research and fiddling, I found that the automatic APN configuration failed, and I simply had to perform it manually.</p>
+<p>The correct APN settings were found here: <a class="reference external" href="http://www.telkomsel.com/services/basic-services/3062-GPRS">http://www.telkomsel.com/services/basic-services/3062-GPRS</a>, note that unless you can read Bahasa, google translate will come in useful on the linked page! In summary though, I simply had to create a new APN with 'name' = 'internet' and 'apn' = 'internet'. After that, I was in business! It seemed that my device did automatically register with the tecomsel server, though if yours does not you may need to text 'internet' to the number '5432' on indicated on the linked page.</p>
+</blockquote>
+    </div>
+    <aside class="postpromonav"><nav><ul class="pager">
+<li class="previous">
+                <a href="/blog/what-is-flowt/" rel="prev" title="What is flowt?">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="/blog/embedding-mailchimps-sign-up-form/" rel="next" title="Embedding mailchimp's sign-up form">Next post</a>
+            </li>
+        </ul></nav></aside><section class="comments"><h2>
+<i class="mdi-communication-forum"></i>Comments</h2>
+        <hr>
+<div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="flowt-website",
+            disqus_url="http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/",
+        disqus_title="Configuring Android Galaxy S6 on telcomsel's Mobile Data Network",
+        disqus_identifier="cache/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section></article><script>var disqus_shortname="flowt-website";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+            </div>
+        </div>
+        <button class="btn btn-fab btn-raised btn-material-green btn-footer" data-toggle="modal" data-target="#footer-dialog">
+            <i class="mdi-communication-message"></i>
+        </button>
+        <div id="footer-dialog" class="modal fade" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">flowt credits</h4>
+ 
+              </div>
+              <div class="modal-body">
+                    Contents © 2016         <a href="mailto:flowt.biohacker@gmail.com">Martin A. Molina</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+                    
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-primary" data-dismiss="modal">Ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="source-button">
+    <a class="btn btn-fab btn-raised btn-material-indigo" target="_blank" href="/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/index.rst" title="Source">
+        <i class="mdi-file-cloud-download"></i>
+    </a>
+
+        </div>
+        <div class="kc_fab_wrapper"></div>
+</div>
+
+            <script src="/assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                            "bgcolor": "#F44336",
+                        },
+                        {
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "target": "_blank",
+                        },
+                        {
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "color": "#fffff",
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "target": "_blank",
+                        },
+                        {
+                            "icon": "<i class='fa fa-facebook'></i>",
+                            "color": "#fffff",
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "target": "_blank",
+                        },
+                ];
+
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
+            });
+
+            $(window).on("resize", function() {
+                $("html, body").height($(window).height());
+                $(".main, .menu").height($(window).height() - $(".header-panel").outerHeight() - 76 ); // footer margin: $("footer.footer").outerHeight()
+                $(".posts-material").height($(window).height());
+            }).trigger("resize");
+        </script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            
+              ga('create', 'UA-88074465-3', 'auto');
+                ga('send', 'pageview');
+                
+                </script>
+</body>
+</html>

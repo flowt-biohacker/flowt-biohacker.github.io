@@ -7,114 +7,118 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://flowt-biohacker.github.io/</loc>
-  <lastmod>2016-11-21T15:10:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/2016/</loc>
-  <lastmod>2016-11-21T14:32:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/about-nikola/about-nikola/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/archive.html</loc>
-  <lastmod>2016-12-19T21:07:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/blog/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/blog/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/blog/embedding-mailchimps-sign-up-form/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/blog/setting-up-nikola-with-deployment-to-github-pages/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/blog/what-is-flowt/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/bootstrap-demo/bootstrap-demo/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/categories/</loc>
-  <lastmod>2016-11-21T15:10:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/charts/charts/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/creating-a-theme/creating-a-theme/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/dr-nikolas-vendetta/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/extending/extending/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/galleries/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/galleries/demo/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/handbook/handbook/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/internals/internals/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://flowt-biohacker.github.io/listings-demo/listings-demo/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/listings/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/listings/__pycache__/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
   <loc>http://flowt-biohacker.github.io/listings/hello.py.html</loc>
-  <lastmod>2016-12-19T21:07:00Z</lastmod>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/about-nikola/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/path-handlers/path-handlers/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/bootstrap-demo/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/quickref/quickref/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/charts/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/quickstart/quickstart/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/creating-a-theme/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/slides-demo/slides-demo/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/dr-nikolas-vendetta/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/social_buttons/social_buttons/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
  <url>
-  <loc>http://flowt-biohacker.github.io/pages/extending/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/handbook/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/internals/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/listings-demo/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/path-handlers/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/quickref/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/quickstart/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/slides-demo/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/social_buttons/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/pages/theming/</loc>
-  <lastmod>2016-11-21T14:29:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/posts/configuring-android-galaxy-s6-on-telcomsels-mobile-data-network/</loc>
-  <lastmod>2016-12-01T13:24:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/posts/embedding-mailchimps-sign-up-form/</loc>
-  <lastmod>2016-12-19T19:30:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/posts/setting-up-nikola-with-deployment-to-github-pages/</loc>
-  <lastmod>2016-11-21T18:39:00Z</lastmod>
- </url>
- <url>
-  <loc>http://flowt-biohacker.github.io/posts/what-is-flowt/</loc>
-  <lastmod>2016-11-25T06:10:00Z</lastmod>
+  <loc>http://flowt-biohacker.github.io/theming/theming/</loc>
+  <lastmod>2016-12-20T21:18:00Z</lastmod>
  </url>
 </urlset>
