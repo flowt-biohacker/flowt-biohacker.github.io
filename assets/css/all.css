@@ -9088,7 +9088,7 @@ h2 {
     font-weight: 400;
     position: absolute;
     bottom: 10px;
-    padding-left: 35px;
+    padding-left: 0;
 }
 
 .header-panel div {
@@ -9149,7 +9149,7 @@ h2 {
 .menu ul li a {
     color: rgb(51, 51, 51);
     text-decoration: none;
-    padding: 20px 0 20px 50px;
+    padding: 20px 0 20px 15px;
     display: block;
     outline: 0;
 }
@@ -9226,6 +9226,15 @@ span.vcard img.img-circle {
 /* layout */
 .content-material {
     min-height: 75%;
+}
+
+#logo {
+    width: 80%;
+    height: auto;
+    max-height: auto;
+    max-width: 300px;
+    min-height: auto;
+    min-width: 40px;
 }
 
 .posts-material {
