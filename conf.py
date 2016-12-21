@@ -148,8 +148,21 @@ NAVIGATION_LINKS = {
     ]
 }
 
+#NAVIGATION_LINKS = {
+#DEFAULT_LANG: (
+#               ('/index.html', 'Home', 'icon-home'),
+#               ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+#               ('/categories/index.html', 'Tags', 'icon-tags'),
+#               ('/rss.xml', 'RSS', 'icon-rss'),
+#               ('https://getnikola.com', 'About me', 'icon-user'),
+#               ('https://twitter.com/getnikola', 'My Twitter', 'icon-twitter'),
+#               ('https://github.com/getnikola', 'My Github', 'icon-github'),
+#              )
+#}
+
 # Name of the theme to use.
 #THEME = "bootstrap3"
+#THEME = "slidemenu"
 THEME = "material-theme"
 #THEME = "zen-ipython"
 
@@ -185,17 +198,17 @@ THEME_COLOR = '#5670d4'
 #
 
 POSTS = (
-    ("posts/*.rst", "blog", "post.tmpl"),
-    ("posts/*.txt", "blog", "post.tmpl"),
-    ("posts/*.html", "blog", "post.tmpl"),
-    ("posts/*.ipynb", "blog", "post.tmpl"),
-)
+        ("posts/*.rst", "blog", "post.tmpl"),
+        ("posts/*.txt", "blog", "post.tmpl"),
+        ("posts/*.html", "blog", "post.tmpl"),
+        ("posts/*.ipynb", "blog", "post.tmpl"),
+        )
 PAGES = (
-    ("pages/*.rst", "", "story.tmpl"),
-    ("pages/*.txt", "", "story.tmpl"),
-    ("pages/*.html", "", "story.tmpl"),
-    ("stories/*.ipynb", "", "story.tmpl"),
-)
+        ("pages/*.rst", "", "story.tmpl"),
+        ("pages/*.txt", "", "story.tmpl"),
+        ("pages/*.html", "", "story.tmpl"),
+        ("stories/*.ipynb", "", "story.tmpl"),
+        )
 
 
 # Below this point, everything is optional
@@ -274,14 +287,14 @@ COMPILERS = {
     "wiki": ('.wiki',),
     "ipynb": ('.ipynb',),
     "html": ('.html', '.htm'),
-    # PHP files are rendered the usual way (i.e. with the full templates).
-    # The resulting files have .php extensions, making it possible to run
-    # them without reconfiguring your server to recognize them.
+# PHP files are rendered the usual way (i.e. with the full templates).
+# The resulting files have .php extensions, making it possible to run
+# them without reconfiguring your server to recognize them.
     "php": ('.php',),
-    # Pandoc detects the input from the source filename
-    # but is disabled by default as it would conflict
-    # with many of the others.
-    # "pandoc": ('.rst', '.md', '.txt'),
+# Pandoc detects the input from the source filename
+# but is disabled by default as it would conflict
+# with many of the others.
+# "pandoc": ('.rst', '.md', '.txt'),
 }
 
 # Create by default posts in one file format?
@@ -489,7 +502,7 @@ INDEX_PATH = "blog"
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
 FRONT_INDEX_HEADER = {
-    DEFAULT_LANG: ''
+DEFAULT_LANG: ''
 }
 
 # Create per-month archives instead of per-year
@@ -877,15 +890,15 @@ CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{autho
 #          do not need formatting)
 # (translatable)
 CONTENT_FOOTER_FORMATS = {
-    DEFAULT_LANG: (
-        (),
-        {
-            "email": BLOG_EMAIL,
-            "author": BLOG_AUTHOR,
-            "date": time.gmtime().tm_year,
-            "license": LICENSE
-        }
-    )
+DEFAULT_LANG: (
+               (),
+               {
+               "email": BLOG_EMAIL,
+               "author": BLOG_AUTHOR,
+               "date": time.gmtime().tm_year,
+               "license": LICENSE
+               }
+              )
 }
 
 # To use comments, you can choose between different third party comment
@@ -1151,15 +1164,15 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # (translatable)
 BODY_END = """
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-            
-              ga('create', 'UA-88074465-3', 'auto');
-                ga('send', 'pageview');
-                
-                </script>"""
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-88074465-3', 'auto');
+ga('send', 'pageview');
+
+</script>"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
@@ -1263,46 +1276,46 @@ UNSLUGIFY_TITLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 ANALYTICS = '''<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-              ga('create', 'UA-88074465-3', 'auto');
-                ga('send', 'pageview');
+ga('create', 'UA-88074465-3', 'auto');
+ga('send', 'pageview');
 
-                </script>'''
+</script>'''
 GLOBAL_CONTEXT = {
     'analytics': ANALYTICS,
     'header_color': 'info', 
     "social_links": [
-        {
-            'bgcolor': "#F44336",
-            'icon': "<i class='fa fa-share-square-o'></i>"
-        },
-        {
-            "url": "https://twitter.com/",
-            "bgcolor": "#55ACEE",
-            "color": "#fffff",
-            "icon": "<i class='fa fa-twitter'></i>",
-            "target": "_blank"
-        },
-        {
-            "url": "https://github.com/",
-            "bgcolor": "#666666",
-            "color": "#fffff",
-            "icon": "<i class='fa fa-github-square'></i>",
-            "target": "_blank"
-        },
-        {
-            "url": "https://www.facebook.com",
-            "bgcolor": "#3B5998",
-            "color": "#fffff",
-            "icon": "<i class='fa fa-facebook'></i>",
-            "target": "_blank"
-        },
-        ]
-    }
+    {
+        'bgcolor': "#F44336",
+        'icon': "<i class='fa fa-share-square-o'></i>"
+    },
+    {
+        "url": "https://twitter.com/",
+        "bgcolor": "#55ACEE",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-twitter'></i>",
+        "target": "_blank"
+    },
+    {
+        "url": "https://github.com/",
+        "bgcolor": "#666666",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-github-square'></i>",
+        "target": "_blank"
+    },
+    {
+        "url": "https://www.facebook.com",
+        "bgcolor": "#3B5998",
+        "color": "#fffff",
+        "icon": "<i class='fa fa-facebook'></i>",
+        "target": "_blank"
+    },
+    ]
+}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be

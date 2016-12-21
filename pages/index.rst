@@ -11,12 +11,16 @@ Welcome to flowt's webpage.
 
 .. raw:: html
 
-   <div style="text-align: center;">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/U1oNvrkjR14" frameborder="0" allowfullscreen></iframe>
+   <div ">
+
+   <div style="height:0; position:relative; padding-bottom:56.25%;">
+
+   <iframe style="height:100%; width:100%; position:absolute;" src="https://www.youtube.com/embed/U1oNvrkjR14" frameborder="0" allowfullscreen></iframe>
+   </div>
 
     <div>
    <a href="https://play.google.com/store/apps/details?id=com.martianwearables.hrv_flowt&hl=en" >
-   <img src="images/google_play_image.png" >
+   <img src="images/google_play_image.png"style="max-width: 100%;" >
    </a>
    </div>
 
